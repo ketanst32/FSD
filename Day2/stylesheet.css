@@ -1,0 +1,21 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 10px;
+    font-size: 60px ;
+    
+    
+}
+#heading{
+text-align: center;
+font-size: 60px;
+}
+#row1{
+    background-color: aqua;
+}
+#row2{
+    background-color: blanchedalmond;
+}
