@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.grid-item{
+    border: 5px solid green;
+    /* //height: 200px; */
+    background-color: rgb(235, 48, 188);
+}
+.item1{
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}
+.item2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}

@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: aquamarine;
+
+}
+.grid-item{
+    border: 5px solid green;
+    /* //height: 200px; */
+    background-color: rgb(235, 48, 188);
+
+}
+.navbar{
+    grid-column-start:1 ;
+    grid-column-end: 4; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    word-spacing: 20%;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: rgb(235, 48, 188);
+  }
