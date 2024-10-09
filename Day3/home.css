@@ -1,0 +1,37 @@
+*{margin:0px;
+padding: 0px;
+box-sizing: border-box;}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: aqua;
+}
+img{
+width: 60px;
+height: 60px;
+}
+a{
+    background-color: rgb(238, 248, 248);
+    font-size: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: ;
+    color: rgb(39, 228, 48);
+}
+.menu{
+    justify-content: space-around;
+    margin: 20px;
+    display:contents;
+}
+.main-content{
+    display: flex;
+    border: 3px solid green;
+    justify-content: space-around;
+    margin: 20px;
+    height: 30px;
+    background-color: aliceblue;
+}
